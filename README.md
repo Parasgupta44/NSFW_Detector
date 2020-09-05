@@ -2,7 +2,9 @@
 
 The given repository builds a decent model for NSFW detection using [NudeNetDataset](https://archive.org/details/NudeNet_classifier_dataset_v1) with the help of [Keras](https://keras.io/). Convolution Neural Networks are used for training the dataset. The model has been trained on a section of the dataset on local machines for the ease of deployment.
 
-![alt text](./figs/Box.gif)
+![NSFW](./images/strong.png)
+--------------------------------
+![SAFE](./images/safe.PNG)
 
 
 ## Dataset

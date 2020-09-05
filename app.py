@@ -55,7 +55,7 @@ def predict_if_safe(path):
             img = img / 255
             prediction_images.append(img)
 
-        # converting all the frames for a test video into numpy array
+        # converting all the images into numpy array
         prediction_images = np.array(prediction_images)
         # extracting features using pre-trained model
         prediction_images = base_model.predict(prediction_images)

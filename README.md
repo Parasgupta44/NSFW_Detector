@@ -53,6 +53,8 @@ The model had been deployed using [Flask](https://flask.palletsprojects.com/) we
 python app.py 
 
 ```
+
+[Azure Deployment](https://nsfwdetector.azurewebsites.net/). (Decommisoned)
 ### Usage
 
 After spinning the server up online, just upload your image to get the predicted result.

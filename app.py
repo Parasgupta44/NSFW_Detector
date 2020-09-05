@@ -73,7 +73,7 @@ def predict_if_safe(path):
         res = "Please upload a valid file"
 
     # remove the file after processing
-    files = glob('uploads\*')
+    files = glob('uploads/*')
     for f in files:
         os.remove(f)
     if str(res) == "nude":

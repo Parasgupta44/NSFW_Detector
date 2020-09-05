@@ -16,7 +16,7 @@ The given repository builds a decent model for NSFW detection using [NudeNetData
 
 ## Pre-trained Models
 
-The Following models were used for training the dataset. Also, image size was altered to check the dependencies.
+The Following models were used for extracting features (transfer learning). Also, image size was altered to check the dependencies.
 - [VGG16](https://arxiv.org/abs/1409.1556)
 - [InceptionV3](https://arxiv.org/abs/1512.00567)
 
@@ -36,11 +36,11 @@ pip install -r requirements.txt
 
 Use the notebook provided in `models/train.ipynb` file in your preferred python execution setup.
 
-The best model outputs will be automatically saved with the code provided in the file itself,.
+The best model outputs will be automatically saved with the code provided in the file itself.
 
 ### Testing
 
-The code provided in the [`app.py`](./app.py) file is used for testing your image and rendering the main page.
+The code provided in the [`app.py`](./app.py) file is used for testing the image and rendering the main page.
 
 
 ## Deployment
@@ -56,3 +56,5 @@ python app.py
 ### Usage
 
 After spinning the server up online, just upload your image to get the predicted result.
+
+-------------------------------------------------
